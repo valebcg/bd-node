@@ -31,7 +31,7 @@ const addPosts = async (payload) => {
     }
   }
 
-//   ----Trayendo todos los ´posts-----
+//   ----Trayendo todos los posts-----
   const getPosts = async () => {
     try {
         const { rows } = await pool.query("SELECT * FROM posts")
